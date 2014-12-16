@@ -1,0 +1,39 @@
+{
+  "name": "css-layouts",
+  "description": "The most interesting project in the world > Verb",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/css-layouts",
+  "author": {
+    "name": "Brian Woodward",
+    "url": "https://github.com/doowb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/assemble/css-layouts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assemble/css-layouts/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/assemble/css-layouts/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "assemble": "git://github.com/assemble/assemble#v0.6.0",
+    "engine-less": "^0.2.1",
+    "gulp-extname": "^0.2.0",
+    "gulp-minify-css": "^0.3.11",
+    "load-templates": "^0.5.3",
+    "mocha": "*",
+    "should": "*",
+    "template-render": "^0.1.0"
+  },
+  "keywords": []
+}
